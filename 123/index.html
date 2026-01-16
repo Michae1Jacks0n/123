@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 id="paragraf"> </h1>
+
+    <button id="showButton" style="padding: 5px; margin: 20px; color: black;">Apasa</button>
+
+    <script>
+        const showButton = document.getElementById('showButton');
+        showButton.addEventListener('click', function() {
+        console.log('Hello world Mihai');
+        });
+
+        const paragraf = document.getElementById('paragraf');
+        document.getElementById("paragraf").innerHTML = "<p>Salut lume!</p>";
+
+    </script>
+</body>
+</html>
